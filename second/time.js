@@ -13,10 +13,13 @@ window.onload=function(){
     else{
       val.value="同意";
       val.disabled=false;
+      val.onclick = function(){
+        alert("就知道你会同意的！");
+      }
       clearInterval(setid);
     }
   }
   setid=setInterval(function(){time()},1000);
 
-
 };
+
