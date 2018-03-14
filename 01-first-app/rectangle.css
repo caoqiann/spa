@@ -1,0 +1,10 @@
+.rectangle{
+	text-align: center;
+	margin: 50px auto;
+  	font-size: 1.1em;
+}
+input, label, button {
+  margin: 5px 0;
+  font-size: 1em;
+  padding-left: 5px;
+}

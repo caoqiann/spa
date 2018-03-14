@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>first-app </title>
+  <title>矩形计算器</title>
+  <link rel="stylesheet" type="text/css" href="rectangle.css">
+  
 </head>
 <body>
 <div class="rectangle">
   <label for="">宽度： </label>
-  <input class="width" type="textbox">
+  <input id="rect-width" type="text">
   <br>
   <label for="">长度： </label>
-  <input class="height" type="textbox">
+  <input id="rect-height" type="text">
   <br>
-  <input class="calc" type="button" value="计算">
+  <input type="button" value="计算" id="calc" onclick="c()">
   <br>
   <label for="">周长： </label>
-  <input class="perimeter" type="textbox">
+  <input id="rect-perimeter" type="text">
   <br>
   <label for="">面积： </label> 
-  <input class="area" type="textbox">
+  <input id="rect-area" type="text">
   
 </div>
 </body>
+<script src="rectangle.js"></script>
 </html>
